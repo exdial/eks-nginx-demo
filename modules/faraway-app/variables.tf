@@ -13,6 +13,11 @@ variable "tags" {
   description = "Resource tags"
 }
 
+variable "aws_profile" {
+  type = string
+  description = "AWS profile"
+}
+
 variable "kubeconfig" {
   type        = string
   description = "Kubeconfig"
